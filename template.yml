@@ -5,7 +5,7 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: Ansible_Infrastructure
+      KeyName: UdacityCIdeyon
       ImageId: 'ami-0ddf424f81ddb0720'
       InstanceType: t3.medium
   
