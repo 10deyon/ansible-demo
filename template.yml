@@ -6,7 +6,7 @@ Resources:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
       KeyName: Ansible_Infrastructure
-      ImageId: 'ami-08d4ac5b634553e16'
+      ImageId: 'ami-0ddf424f81ddb0720'
       InstanceType: t3.medium
   
   InstanceSecurityGroup:
