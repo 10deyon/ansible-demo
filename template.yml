@@ -5,9 +5,9 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: UdacityCIdeyon
-      ImageId: 'ami-0ddf424f81ddb0720'
-      InstanceType: t3.medium
+      KeyName: udacity
+      ImageId: 'ami-0729e439b6769d6ab'
+      InstanceType: t2.micro
   
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
